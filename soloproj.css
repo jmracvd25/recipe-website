@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans serif;
+  background-color: rgb(207, 186, 160);
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 3em auto;
+  background-color: white;
+  padding: 2.5em;
+  border-radius: 1.5em;
+}
+
+img {
+  width: 100%;
+  border-radius: 1.5em;
+}
+
+.preparation-time {
+  background-color: rgb(242, 230, 232);
+  border-radius: 1.5em;
+  padding: 1.5em 1.5em;
+  margin: 0;
+}
+
+.preparation-time h3 {
+  color: rgb(52, 4, 52);
+  padding: 0;
+  margin: 0;
+}
+
+.preparation-time li {
+  margin-top: .5em;
+}
+
+.ingredients {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.ingredients h2 {
+  color: rgb(145, 35, 35);
+  margin: 0;
+}
+
+.ingredients li {
+  margin-top: .5em;
+}
+
+.instructions {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.instructions h2 {
+  color: rgb(145, 35, 35);
+  margin: 0;
+
+}
+
+.instructions ol {
+  padding: 0;
+}
+
+.instructions li {
+  margin: .75em 1em .75em 1em;
+}
+
+.table {
+  display: flex;
+  justify-content: space-between;
+  width: 30rem;
+  margin: 0 3rem;
+}
+
+.descrip h2{
+  color: rgb(145, 35, 35);
+  margin: 0;
+}
+
+.descrip p {
+  margin: .5em 0em;
+}
+
+.flex-nutrition {
+  margin-top: 1em;  
+}
+
+.macro {
+  color: rgb(145, 35, 35);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 786px){
+  
+  .table {
+    width: 20rem;
+  }
+}
